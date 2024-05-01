@@ -6,11 +6,17 @@ h1{
     font-size: 3rem;
 }
 
-.poster{
-    width: 50%;
+.motivational-meme{
     color: white;
-    margin-left: 25%;
-    margin-top: 100%;
+    width: 50%;
     font-family: "Libre Baskerville", serif;
     text-align: center;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+#meme{
+    width: 100%;
+
+    border: 5px solid white;
 }
