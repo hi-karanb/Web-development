@@ -88,7 +88,8 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.login h1 {
+h1{
+    color: white;
     text-align: center;
 }
 
@@ -99,4 +100,20 @@ form {
 
 label {
     margin-bottom: 5px;
+}
+
+input[type="email"],input[type="password"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
 }
