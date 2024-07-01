@@ -116,4 +116,6 @@ button {
     border-radius: 6px;
     background-color: #333;
     color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
