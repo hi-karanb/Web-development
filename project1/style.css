@@ -79,3 +79,24 @@ body{
     font-weight: 500;
     letter-spacing: 1px;
 }
+
+.log {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.212);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
