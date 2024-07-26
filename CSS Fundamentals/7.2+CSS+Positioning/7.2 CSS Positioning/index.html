@@ -4,6 +4,10 @@
 <head>
   <title>CSS Positioning Exercise</title>
   <style>
+
+       body{
+        padding-bottom: 2000px;
+       }
     /* Write your code here */
     .red-circle {
       background-color: red;
@@ -23,14 +27,61 @@
       top: 200px;
       left: 200px;
     }
+    .header{
+      background-color: lightblue;
+      position: fixed;
+      top: 0;
+      height: 70px;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+    }
+  .body{
+    background-color: lightpink;
+    height: 2000px;
+    width: 100%;
+  }
 
+  .notification-icon{
+    width: 25px;
+    margin-top: 50px;
+
+
+  }
+  .not{
+    position: relative;
+  }
+  .notification-count{
+    background-color: red;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    color: white;
+    text-align: center;
+    top: 40px;
+    left:  12px;
+  position: absolute;
+  }
+ 
   </style>
 </head>
 
 <body>
-  <div class="blue-box">
+ <!-- <div class="blue-box">
     <div class="red-circle">
     </div>
+  </div>-->
+
+  <div class="header">
+    dyuti
+  </div>
+  <div class="body">
+  gggg
+  </div>
+
+   <div class="not">
+    <img class="notification-icon"src="bell.png">
+    <div class="notification-count">2</div>
   </div>
 
 </body>
