@@ -11,7 +11,7 @@ for ( var i = 0 ; i < noOfDrumButtons ; i++){
 }
 
 document.addEventListener("keydown", function(event) {
-    console.log(event);
+    makeSound(event.key);
 
 });
 
